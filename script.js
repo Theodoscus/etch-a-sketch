@@ -9,9 +9,6 @@ setGame(size);
 sizediv.textContent= size+"x"+size;
 
 
-
-
-
 function setGame(size){
 for (let i=0; i < size; i++){
     let row = document.createElement('div');
