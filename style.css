@@ -4,13 +4,23 @@ body{
     /* align-items: center; */
     /* justify-content: center; */
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header{
     background-color: aquamarine;
     display: flex;
     padding: 0px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 
+
+}
+
+.header img{
+    height: 30px;
+    width: 30px;
 }
 
 .main{
@@ -98,6 +108,11 @@ body{
 
     width: 100%;
     
+}
+
+button:hover{
+    background-color: black;
+    color: white;
 }
 
 .footer{

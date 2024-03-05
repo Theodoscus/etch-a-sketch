@@ -1,19 +1,12 @@
 const sizediv = document.getElementById('size');
 const container = document.getElementsByClassName('container')[0];
-let size = 16;
-setGame(size);
-
-function reload(){
-    
-    sizediv.textContent=size+"x"+size;
-    setGame(0);
-    return size;
-}
-
-sizediv.textContent= size+"x"+size;
 const increase = document.getElementById('increase');
 const decrease = document.getElementById('decrease');
 const reset = document.getElementById('reset');
+
+let size = 16;
+setGame(size);
+sizediv.textContent= size+"x"+size;
 
 
 
