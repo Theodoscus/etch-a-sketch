@@ -25,24 +25,25 @@ body{
     border-width: 8px;
     border-color: black;
     border-style: solid;
-    justify-content: center;
+    height:500px;
+    width: 500px;
+    display: grid;
     
-    margin: 0;
-    padding: 0;
-    display: flex;
     
 }
 
-.box{
-    border-width: 1px;
-    border-color: black;
-    border-style: solid;
+.row{
     display: flex;
-    height: 10px;
-    width: 10px;
-    
-    
+    width: 100%;
 
+}
+
+.box{
+    user-select: none;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    flex: 1;
 }
 
 .buttons{
@@ -90,7 +91,7 @@ body{
 }
 
 .buttons p{
-    margin: 0px
+    margin:0;
 }
 
 .buttons .down button{
@@ -100,7 +101,7 @@ body{
 }
 
 .footer{
-    position: fixed;
+    position: relative;
     bottom: 0;
     widows: 100%;
     padding: 20px;
