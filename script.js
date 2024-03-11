@@ -20,7 +20,8 @@ for (let i=0; i < size; i++){
     for(let j=0; j<size; j++){
         const box = document.createElement('div')
         box.setAttribute('class','box');
-        box.onclick = () => box.style.backgroundColor='black';
+        box.onclick = () => box.style.backgroundColor= box.style.backgroundColor === 'black' ?
+        'white' : 'black';
         row.appendChild(box);
     }
     
